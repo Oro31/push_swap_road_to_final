@@ -6,28 +6,11 @@
 /*   By: rvalton <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/07 18:32:35 by rvalton           #+#    #+#             */
-/*   Updated: 2021/10/12 14:31:22 by rvalton          ###   ########.fr       */
+/*   Updated: 2021/10/20 18:17:33 by rvalton          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
-
-/*int		ft_is_min(t_elem *b, int d)
-{
-	t_elem	*tmp;
-	int		*tab;
-
-	if (b == NULL)
-		return (0);
-	tmp = b;
-	while (tmp)
-	{
-		if (tmp->val < d)
-			return (0);
-		tmp = tmp->nxt;
-	}
-	return (1);
-}*/
 
 t_elem	*ft_push_x_to_y(t_elem **x, t_elem *y, char c)
 {
